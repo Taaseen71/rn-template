@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { HomeScreen, LogIn, SignUp, Fetch, ReactContext } from '@screens';
