@@ -6,7 +6,7 @@ Install application using the command:
 npx react-native init testApp --template https://github.com/Taaseen71/rn-template.git
 ```
 
-## Step2: Change the name of the React Native File using the command:
+## Step 2: Change the name of the React Native File using the command:
 
 (cd into folder first)
 
