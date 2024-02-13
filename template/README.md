@@ -26,6 +26,8 @@ npx pod-install ios/
 ```
 
 ## Step 4: Start File:
-react-native start --reset-cache
 
+```bash
+react-native start --reset-cache
+```
 
