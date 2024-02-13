@@ -15,7 +15,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "WeekendProject2";
+    return "template";
   }
   @Override
   protected void onCreate(Bundle savedInstanceState) {

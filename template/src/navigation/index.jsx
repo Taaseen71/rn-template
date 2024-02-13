@@ -23,7 +23,11 @@ const Navigation = () => {
 
     const UnAuthorized = () => (
         <Stack.Navigator>
-            <Stack.Screen name="Log In">
+            <Stack.Screen name="Log In" options={{
+                headerRight: () => (
+                    <Button title={"Sign Up"} onPress={() => {navigation.navigate('Sign Up')}}/>
+                )
+            }}>
                 {() => <LogIn isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/> }
             </Stack.Screen>
             <Stack.Screen name="Sign Up" component={SignUp}/>
