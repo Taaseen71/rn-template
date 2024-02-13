@@ -3,13 +3,14 @@ import { View, Text, Button } from 'react-native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { HomeScreen, LogIn, SignUp, Fetch, ReactContext } from '@screens';
 import React, {useState} from 'react'
+import { useNavigation } from '@react-navigation/native';
 
 
-        
 
 const Navigation = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     const Stack = createNativeStackNavigator();
+    const navigation = useNavigation()
     
 
     
