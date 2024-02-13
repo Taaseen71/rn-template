@@ -8,12 +8,12 @@ npx react-native init testApp --template https://github.com/Taaseen71/rn-templat
 ## Step2: Change the name of the React Native File using the command:
 
 (cd into folder first)
-(
-   install react-native-rename if not installed:
+
+(install react-native-rename if not installed:)
    ```bash
    npm install -g react-native-rename
    ```
-)
+
 
 ```bash
 react-native-rename "YourFileName"
