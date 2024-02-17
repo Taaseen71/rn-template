@@ -32,3 +32,8 @@ npx pod-install ios/
 react-native start --reset-cache
 ```
 
+## Misc: 
+To launch XCode
+```bash
+xed -b ios
+```
